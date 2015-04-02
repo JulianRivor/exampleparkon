@@ -4,7 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_org_imasd_webapp_domain_Telefono" modelAttribute="telefono" path="/telefonoes" render="${empty dependencies}" z="aNBAq+VWYdTZG7+1d0InlYXaovw=">
         <field:input field="numero" id="c_org_imasd_webapp_domain_Telefono_numero" z="81sF0f8hdti7b392DLoV3nkzTHU="/>
-        <field:input field="descripcion" id="c_org_imasd_webapp_domain_Telefono_descripcion" z="imnfsuTBskEbMVkmPqoVMFpshrA="/>
+        <field:input field="descripcion del telefono" id="c_org_imasd_webapp_domain_Telefono_descripcion" z="imnfsuTBskEbMVkmPqoVMFpshrA="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_org_imasd_webapp_domain_Telefono" render="${not empty dependencies}" z="bx9mv1j53BcQBOjynsSpd3v6AyU="/>
 </div>
